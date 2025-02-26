@@ -98,8 +98,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="lets-cause-a-merge-conflict" class="level2">
 <h2 class="anchored" data-anchor-id="lets-cause-a-merge-conflict">Let’s cause a merge conflict!</h2>
+<<<<<<< HEAD
 <p>Our goal is to see two different types of merges: first we’ll see a type of merge that git can figure out on its own, then another type of where git can not figure out how to do without human intervention.</p>
 <p>I (the instructor) will take on <strong>Role 1</strong>, and will choose someone to take on <strong>Role 2</strong> for this demonstration.</p>
+=======
+<p>Our goal is to see two different types of merges: first we’ll see a type of merge that git can’t figure out on its own how to do on its own (a <strong>merge conflict</strong>) and requires human intervention, then another type of where that git can figure out how to do without human intervention.</p>
+<p>I (the instructor) will take on <strong>Role 2</strong>, and will choose someone to take on <strong>Role 1</strong> for this demonstration.</p>
+>>>>>>> 87dd5e697dd0adcf847a11e0877f799f4100f90c
 <p><strong>Others should just watch, not doing anything on their own projects (this includes not even pulling changes!)</strong> until the end of the demonstration!</p>
 <ul>
 <li>In order to resolve merge conflicts using the instructions below, git needs to have the correct settings.</li>
@@ -130,12 +135,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Render, commit, push. You should get an error.</li>
 <li>Pull. Take a look at the document with the merge conflict.</li>
 </ul>
+<<<<<<< HEAD
 <p><strong>Role 22:</strong></p>
+=======
+<p><strong>Role 20:</strong></p>
+>>>>>>> 87dd5e697dd0adcf847a11e0877f799f4100f90c
 <ul>
-<li>Add a code chunk on around line 55. Type some code</li>
-<li>Render, commit, push. You should get an error.</li>
-<li>Pull. No merge conflicts should occur, but you should see a message about merging.</li>
-<li>Now push.</li>
+<li>Change Role 1 above to Role 20.</li>
+<li>Render, commit, push.</li>
 </ul>
 <p><strong>Role 2:</strong></p>
 <ul>
