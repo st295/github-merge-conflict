@@ -1,0 +1,72 @@
+---
+title: "Merge Demo"
+format: html
+editor: visual
+---
+
+
+## Let's cause a merge conflict!
+
+Our goal is to see two different types of merges: first we'll see a type of merge that git can't figure out on its own how to do on its own (a **merge conflict**) and requires human intervention, then another type of where that git can figure out how to do without human intervention.
+
+
+I (the instructor) will take on **Role 1**, and will choose someone to take on **Role 2** for this demonstration. 
+
+**Others should just watch, not doing anything on their own projects (this includes not even pulling changes!)** until the end of the demonstration!
+
+
+-   In order to resolve merge conflicts using the instructions below, git needs to have the correct settings.
+-   To ensure this is true, copy and paste `git config pull.rebase false` into your **terminal** and press enter. (Look for the tab next to the console, and ask if you can't find it.)
+-   Note that if a merge conflict comes up in a later assignment, you may need to do this step again before resolving it. If that's the case, you'll likely get a warning suggesting it when you try to pull and there's a conflict.
+
+**Role 1:**
+
+-   In the code chunk under the first exercise, type your favorite mathematical equation
+
+```{r}
+
+```
+
+-   render, commit, push.
+
+**Role 2:**
+
+-   In the following code chunk, assign a number to an R object
+
+```{r}
+
+```
+
+-   Render, commit, push. You should get an error.
+-   Pull. Take a look at the document with the merge conflict.
+
+**Role 1:**
+
+-   Add a code chunk on around line 55. Type some code
+-   Render, commit, push. You should get an error.
+-   Pull. No merge conflicts should occur, but you should see a message about merging.
+-   Now push.
+
+
+
+
+
+
+
+
+**Role 2:**
+
+-   Add a code chunk around line 55. Also type some code.
+-   Render, commit, push. You should get an error.
+-   Pull. Take a look at the document with the merge conflict. Clear the merge conflict by choosing the correct/preferred change. render, and push.
+
+**Everyone:** Pull, and observe the changes in your document.
+
+## Tips
+
+-   **Always pull first before you start working.**
+-   Resolve a merge conflict (render and push) *before* continuing your work. Never do new work while resolving a merge conflict.
+-   Render, commit, and push often to minimize merge conflicts and/or to make merge conflicts easier to resolve.
+-   If you find yourself in a situation that is difficult to resolve, ask questions ASAP. Don't let it linger and get bigger.
+
+As a last resort, you can use the *blow it up* method. This is where you delete your local project, and re-clone the repo. Only do this if you have no local work you wish to be saved!
