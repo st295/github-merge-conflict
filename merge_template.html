@@ -98,7 +98,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="lets-cause-a-merge-conflict" class="level2">
 <h2 class="anchored" data-anchor-id="lets-cause-a-merge-conflict">Let’s cause a merge conflict!</h2>
-<p>Our goal is to see two different types of merges: first we’ll see a type of merge that git can’t figure out on its own how to do on its own (a <strong>merge conflict</strong>) and requires human intervention, then another type of where that git can figure out how to do without human intervention.</p>
+<p>Our goal is to see two different types of merges: first we’ll see a type of merge that git can figure out on its own, then another type of where git can not figure out how to do without human intervention.</p>
 <p>I (the instructor) will take on <strong>Role 1</strong>, and will choose someone to take on <strong>Role 2</strong> for this demonstration.</p>
 <p><strong>Others should just watch, not doing anything on their own projects (this includes not even pulling changes!)</strong> until the end of the demonstration!</p>
 <ul>
@@ -124,13 +124,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>In the following code chunk, assign a number to an R object</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Render, commit, push. You should get an error.</li>
 <li>Pull. Take a look at the document with the merge conflict.</li>
 </ul>
-<p><strong>Role 1:</strong></p>
+<p><strong>Role 22:</strong></p>
 <ul>
 <li>Add a code chunk on around line 55. Type some code</li>
 <li>Render, commit, push. You should get an error.</li>
