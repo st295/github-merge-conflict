@@ -36,11 +36,7 @@ x <- 3
 -   Render, commit, push. You should get an error.
 -   Pull. Take a look at the document with the merge conflict.
 
-<<<<<<< HEAD
-**Role 22:**
-=======
 **Role 20:**
->>>>>>> 87dd5e697dd0adcf847a11e0877f799f4100f90c
 
 -   Change Role 1 above to Role 20.
 -   Render, commit, push.
