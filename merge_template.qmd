@@ -43,7 +43,7 @@ x <- 3
 
 **Role 2:**
 
--   Add a code chunk around line 55. Also type some code.
+-   Also change Role 1, but to a different number.
 -   Render, commit, push. You should get an error.
 -   Pull. Take a look at the document with the merge conflict. Clear the merge conflict by choosing the correct/preferred change. render, and push.
 
