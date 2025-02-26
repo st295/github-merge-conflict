@@ -20,7 +20,7 @@ I (the instructor) will take on **Role 2**, and will choose someone to take on *
 -   In the code chunk under the first exercise, type your favorite mathematical equation
 
 ```{r}
-2+2
+
 ```
 
 -   render, commit, push.
@@ -30,13 +30,13 @@ I (the instructor) will take on **Role 2**, and will choose someone to take on *
 -   In the following code chunk, assign a number to an R object
 
 ```{r}
-x <- 3
+
 ```
 
 -   Render, commit, push. You should get an error.
 -   Pull. Take a look at the document with the merge conflict.
 
-**Role 20:**
+**Role 1:**
 
 -   Change Role 1 above to Role 20.
 -   Render, commit, push.
