@@ -34,7 +34,7 @@ I (the instructor) will take on **Role 1**, and will choose someone to take on *
 -   In the following code chunk, assign a number to an R object
 
 ```{r}
-
+x <- 3
 ```
 
 -   Render, commit, push. You should get an error.
