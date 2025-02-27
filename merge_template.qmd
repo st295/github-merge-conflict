@@ -20,7 +20,7 @@ I (the instructor) will take on **Role 2**, and will choose someone to take on *
 -   In the code chunk under the first exercise, type your favorite mathematical equation
 
 ```{r}
-
+2+2
 ```
 
 -   render, commit, push.
